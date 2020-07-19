@@ -7,7 +7,7 @@ scr = "~/code/scripts/setbg.sh"
 try:
     filename = os.path.join(os.getcwd(),sys.argv[1])
 except:
-    print("usage: wallpaper.py [filename]")
+    print("Usage: wallpaper [FILE]")
     exit()
 
 shebang = "echo '#! /bin/sh\n' > {}".format(scr)
