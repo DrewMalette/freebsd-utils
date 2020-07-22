@@ -1,4 +1,4 @@
 # freebsd-utils
-dotfiles and a python script for my FreeBSD desktop
+dotfiles and a python script I use for my FreeBSD desktop
 
-setbg.sh is there to show what the output of wallpaper.py looks like
+setbg.sh is sample output for wallpaper.py
