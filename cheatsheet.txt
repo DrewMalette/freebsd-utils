@@ -1,0 +1,21 @@
+
+   FreeBSD Cheatsheet
+
+   VERY IMPORTANT
+   $ mixer vol +/- value
+   *or*
+   $ mixer vol [0-100]
+
+   surf (close window) shift+MOD1+C # mod1 = alt
+
+   sed "s/[TARGET]/[REPLACEMENT]/g" 
+   # 'g' will replace all instances of TARGET on
+   # a line with REPLACEMENT
+
+   sed "s/#.*//g" # removes all comments from a script (stream only)
+   sed -i "" "s/#.*//g" # removes all comments from a script (file)
+   # the double quotes are needed if you don't want a backup in FreeBSD
+   #  (otherwise, input a name for the backup file)
+   # in Linux the double quotes are not needed as Linux sed doesn't need
+   #  a backup (I can hear rms screeching GNU PLUS LINUX!!!!!)
+
